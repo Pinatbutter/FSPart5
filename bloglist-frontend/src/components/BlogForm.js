@@ -5,7 +5,7 @@ const BlogForm = ({ onSubmit, titleChange, authorChange, urlChange }) => (
       <> Title: <input className="Title" onChange={({ target }) => titleChange(target.value)} /><br/></>
       <> Author: <input className="Author" onChange={({ target }) => authorChange(target.value)} /><br/></>
       <> url: <input className="Url" onChange={({ target }) => urlChange(target.value)} /><br/></>
-      <button type="submit">create</button>
+      <button type="submit" id="createBlog">create</button>
     </form>
   </>
 )
